@@ -1,0 +1,36 @@
+{
+  "extends": [
+    "./tslint.json"
+  ],
+  "rulesDirectory": [
+    "codelyzer"
+  ],
+  "rules": {
+    "no-output-on-prefix": false,
+    "no-inputs-metadata-property": true,
+    "no-host-metadata-property": true,
+    "no-input-rename": true,
+    "no-output-rename": true,
+    "use-lifecycle-interface": true,
+    "use-pipe-transform-interface": true,
+    "component-class-suffix": [
+      true,
+      "Page",
+      "Component"
+    ],
+    "directive-class-suffix": true,
+    "directive-selector": [
+      true,
+      "attribute",
+      null,
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "app",
+      "page",
+      "kebab-case"
+    ]
+  }
+}
