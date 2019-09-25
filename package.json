@@ -1,13 +1,31 @@
 {
   "name": "@lindsor/lint-rules",
   "version": "0.0.0",
-  "description": "",
+  "description": "A repository of opinionated config files for different linters. Currently supports tslint and stylelint.",
   "main": "configs",
+  "keywords": [
+    "stylelint-config",
+    "custom-rules",
+    "performance",
+    "stylelint",
+    "stylish",
+    "linting",
+    "angular",
+    "eslint",
+    "linter",
+    "tslint",
+    "rules",
+    "lint",
+    "scss",
+    "sass",
+    "css"
+  ],
   "scripts": {},
   "author": "",
   "license": "MIT",
   "peerDependencies": {
     "codelyzer": "5.x",
-    "tslint-eslint-rules": "5.x"
+    "tslint-eslint-rules": "5.x",
+    "stylelint-high-performance-animation": "1.x"
   }
 }
