@@ -25,7 +25,7 @@ if (pulledVersion === version) {
 
 // Commit any unstaged changes after generating readme
 childProcess.execSync(
-  `git add --all || git commit -m "chore(publish) Publish App ${version}"`,
+  `git add --all && git commit -m "chore(publish) Publish App ${version}"`,
   {
     encoding,
   },

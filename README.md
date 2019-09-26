@@ -2,7 +2,7 @@
 
 ## Package Info: ##
 - Name: `@lindsor/lint-rules`
-- Version: `0.0.0`
+- Version: `0.0.2`
 - License: `MIT`
 
 ## Installing: ##

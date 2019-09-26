@@ -1,6 +1,6 @@
 {
   "name": "@lindsor/lint-rules",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "A repository of opinionated config files for different linters. Currently supports tslint and stylelint.",
   "main": "configs",
   "keywords": [
@@ -22,7 +22,8 @@
   ],
   "scripts": {
     "test": "./bin/test.js",
-    "generate-readme": "./bin/generate-readme.js"
+    "generate-readme": "./bin/generate-readme.js",
+    "prepublish": "npm run generate-readme && npm test && ./bin/commit-change.js"
   },
   "author": "",
   "repository": {
