@@ -2,7 +2,7 @@
 
 ## Package Info: ##
 - Name: `@lindsor/lint-rules`
-- Version: `0.0.3`
+- Version: `0.0.4`
 - License: `MIT`
 
 ## Installing: ##
@@ -25,6 +25,21 @@ The full list of potential peerDependencies is:
 ### stylelint.js ###
 ```javascript
 const tslintRules = require('./tslint').rules;
+
+const maxLineLength = tslintRules['max-line-length'][1];
+const indentation = tslintRules['ter-indent'][1];
+
+if (
+  typeof maxLineLength !== 'number'
+) {
+  throw new Error('max-line-length in tslint.json must be a number.');
+}
+
+if (
+  typeof indentation !== 'number'
+) {
+  throw new Error('indentation in tslint.json must be a number.');
+}
 
 module.exports = exports = {
   plugins: [
@@ -151,8 +166,8 @@ module.exports = exports = {
      *
      * NOTE: Keep deep nesting if tslintRules file changes we want this to break.
      */
-    "max-line-length": tslintRules['max-line-length'][1].limit,
-    "indentation": tslintRules['ter-indent'][1],
+    "max-line-length": maxLineLength,
+    "indentation": indentation,
   }
 }
 
