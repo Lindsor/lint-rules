@@ -18,4 +18,4 @@ readdir(rootPath)
   }))
   .then(() => {
     console.log('All tests passed.');
-  })
+  });

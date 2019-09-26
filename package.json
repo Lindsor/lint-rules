@@ -21,7 +21,8 @@
     "css"
   ],
   "scripts": {
-    "test": "./bin/test.js"
+    "test": "./bin/test.js",
+    "generate-readme": "./bin/generate-readme.js"
   },
   "author": "",
   "repository": {
