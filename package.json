@@ -20,7 +20,9 @@
     "sass",
     "css"
   ],
-  "scripts": {},
+  "scripts": {
+    "test": "./bin/test.js"
+  },
   "author": "",
   "license": "MIT",
   "peerDependencies": {
