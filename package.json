@@ -1,6 +1,6 @@
 {
   "name": "@lindsor/lint-rules",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A repository of opinionated config files for different linters. Currently supports tslint and stylelint.",
   "main": "configs",
   "keywords": [
