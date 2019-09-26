@@ -24,6 +24,10 @@
     "test": "./bin/test.js"
   },
   "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lindsor/lint-rules.git"
+  },
   "license": "MIT",
   "peerDependencies": {
     "codelyzer": "5.x",
